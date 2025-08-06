@@ -95,9 +95,9 @@ function generatePlaylist() {
         const songEl = document.createElement("div");
         songEl.className = "flex border-b py-3 cursor-pointer hover:shadow-md px-2";
         songEl.innerHTML = `
-          <img class='w-10 h-10 object-cover rounded-lg' src='assets/music-icon.png' />
+          <img class='w-10 h-10 object-cover rounded-lg' src='images/music-icon.png' />
           <div class="flex flex-col px-3 w-full">
-            <span class="text-sm text-red-500 capitalize font-semibold pt-1">
+            <span class="text-sm text-blue-500 capitalize font-semibold pt-1">
               ${song.title}
             </span>
             <span class="text-xs text-gray-500 uppercase font-medium">
