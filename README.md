@@ -13,16 +13,17 @@ Audiophile is a simple web-based music playlist application. It allows users to 
 ```
 ├── about.html
 ├── index.html
-├── playlist.js
 ├── README.md
 ├── script.js
 ├── style.css
-└── assets/
-    ├── music-icon.png
-    ├── audio_1.mp3
-    ├── audio_2.mp3
-    ├── audio_3.mp3
-    └── audio_4.mp3
+├── assets/
+│   ├── audio_1.mp3
+│   ├── audio_2.mp3
+│   └── ...
+├── images/
+│   ├── favicon.ico
+│   ├── logo.png
+│   └── music-icon.png
 ```
 
 ## Getting Started
@@ -32,11 +33,11 @@ Audiophile is a simple web-based music playlist application. It allows users to 
 
 ## Usage
 - Use the main page to play and switch between available tracks.
-- The playlist is managed in `playlist.js` and `script.js`.
+- The playlist is managed in `script.js`.
 - Customize the UI via `style.css`.
 
 ## Customization
-- Add new audio files to the `assets/` folder and update the playlist in `playlist.js`.
+- Add new audio files to the `assets/` folder and update the playlist in `script.js`.
 - Modify `style.css` for custom themes.
 
 ## License
