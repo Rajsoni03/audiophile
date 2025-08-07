@@ -3,25 +3,91 @@ const songs = [
         title: "Yaha Waha Tu - v1",
         artist: "Piyush Panday",
         url: "assets/Yaha Waha Tu v1.mp3",
-        cover: "https://img.freepik.com/premium-photo/young-couple-sitting-park-bench-sharing-box-chocolates-surrounded-by-hearts_885831-80783.jpg",
+        cover: "images/song/song_1_sm.jpeg",
     },
     {
         title: "Yaha Waha Tu - v2",
         artist: "Piyush Panday",
         url: "assets/Yaha Waha Tu v2.mp3",
-        cover: "https://img.freepik.com/premium-photo/young-couple-sitting-park-bench-sharing-box-chocolates-surrounded-by-hearts_885831-80783.jpg",
+        cover: "images/song/song_2_sm.jpeg",
     },
     {
         title: "Yaha Waha Tu - v3",
         artist: "Piyush Panday",
         url: "assets/Yaha Waha Tu v3.mp3",
-        cover: "https://img.freepik.com/premium-photo/young-couple-sitting-park-bench-sharing-box-chocolates-surrounded-by-hearts_885831-80783.jpg",
+        cover: "images/song/song_3_sm.jpeg",
     },
     {
         title: "Yaha Waha Tu - v4",
         artist: "Piyush Panday",
         url: "assets/Yaha Waha Tu v4.mp3",
-        cover: "https://img.freepik.com/premium-photo/young-couple-sitting-park-bench-sharing-box-chocolates-surrounded-by-hearts_885831-80783.jpg",
+        cover: "images/song/song_4_sm.jpeg",
+    },
+    {
+        title: "Yaha Waha Tu - v5",
+        artist: "Piyush Panday",
+        url: "assets/Yaha Waha Tu v5.webm",
+        cover: "images/song/song_5_sm.jpeg",
+    },
+    {
+        title: "Yaha Waha Tu - v6",
+        artist: "Piyush Panday",
+        url: "assets/Yaha Waha Tu v6.mp3",
+        cover: "images/song/song_6_sm.jpeg",
+    },
+    {
+        title: "Yaha Waha Tu - v7",
+        artist: "Piyush Panday",
+        url: "assets/Yaha Waha Tu v7.webm",
+        cover: "images/song/song_7_sm.jpeg",
+    },
+    {
+        title: "Yaha Waha Tu - v8",
+        artist: "Piyush Panday",
+        url: "assets/Yaha Waha Tu v8.webm",
+        cover: "images/song/song_8_sm.jpeg",
+    },
+    {
+        title: "Tera Mera Khawab - v1",
+        artist: "Raj Soni",
+        url: "assets/Tera Mera Khawab v1.webm",
+        cover: "images/song/song_9_sm.jpeg",
+    },
+    {
+        title: "Tera Mera Khawab - v2",
+        artist: "Raj Soni",
+        url: "assets/Tera Mera Khawab v2.webm",
+        cover: "images/song/song_10_sm.jpeg",
+    },
+    {
+        title: "Tera Mera Khawab - v3",
+        artist: "Raj Soni",
+        url: "assets/Tera Mera Khawab v3.webm",
+        cover: "images/song/song_11_sm.jpeg",
+    },
+    {
+        title: "Tera Mera Khawab - v4",
+        artist: "Raj Soni",
+        url: "assets/Tera Mera Khawab v4.webm",
+        cover: "images/song/song_12_sm.jpeg",
+    },
+    {
+        title: "Tera Mera Khawab - v5",
+        artist: "Raj Soni",
+        url: "assets/Tera Mera Khawab v5.webm",
+        cover: "images/song/song_13_sm.jpeg",
+    },
+    {
+        title: "Tera Mera Khawab - v6",
+        artist: "Raj Soni",
+        url: "assets/Tera Mera Khawab v6.webm",
+        cover: "images/song/song_14_sm.jpeg",
+    },
+    {
+        title: "Tera Mera Khawab - v7",
+        artist: "Raj Soni",
+        url: "assets/Tera Mera Khawab v7.webm",
+        cover: "images/song/song_15_sm.jpeg",
     },
 ];
 
@@ -95,7 +161,7 @@ function generatePlaylist() {
         const songEl = document.createElement("div");
         songEl.className = "flex border-b py-3 cursor-pointer hover:shadow-md px-2";
         songEl.innerHTML = `
-          <img class='w-10 h-10 object-cover rounded-lg' src='images/music-icon.png' />
+          <img class='w-10 h-10 object-cover rounded-lg' src='${song.cover}' />
           <div class="flex flex-col px-3 w-full">
             <span class="text-sm text-blue-500 capitalize font-semibold pt-1">
               ${song.title}

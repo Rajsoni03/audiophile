@@ -1,0 +1,4 @@
+*.py
+temp.html
+.DS_Store
+venv/
